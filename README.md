@@ -6,11 +6,19 @@
 
 - 🗓 프로젝트 기간: **2024-11-26 ~ 2024-01-14**
 - 👥 참여 인원: **5명** (프론트엔드 중심, 일부 API·DB 구현 포함)
-- 🎯 목표: 기존 예약 플로우의 복잡도를 낮추고 반응형 UI와 관리자 도구를 갖춘 **실사용 수준 데모** 구축
+
+## 🔗 리포지토리 & 호스팅
+
+- Frontend(React): <https://github.com/kennywestt/react_hotel>  
+- Backend(Node.js): <https://github.com/kennywestt/nodejs_hotel>  
+- 호스팅: **Cloudtype**  
+- 호스팅 사이트: <https://web-react-hotel-m84jldlx56e236e1.sel4.cloudtype.app/>
+
+> 참고: 현재 저장소(hotel_service)는 팀 프로젝트 산출물 정리용이며, 실제 배포는 위 분리 저장소를 사용했습니다.
 
 ---
 ## 팀 구성 & 역할
-🧑‍🤝‍🧑 팀 구성 & 역할
+
 **손주혜**
 - 공통: 헤더/푸터, 메인 페이지
 - 회원/인증: 로그인, 회원가입(약관·정보입력·완료), 마이페이지(회원정보 보기/수정, 비밀번호 확인, 문의사항, 회원 탈퇴, 예약 내역 화면 전환)
@@ -44,7 +52,7 @@
 - 관리자(회원관리): 회원관리 게시판
 
 
-## 이경근 v2,v3의 내역
+## 이경근의 버전별 역할할
 
 ### Shilla_v2
 - **예약 기능** 1차 구현
@@ -61,20 +69,6 @@
 - **마이페이지 확장**
   - **예약 내역 조회**
   - **결제 취소·환불** 처리 화면
-
----
-
-## ✨ 주요 기능
-
-- 예약: 조건 검색, 예약 생성/확인
-- 결제: 승인/취소, 환불 프로세스
-- 마이페이지: 회원 정보/예약 내역/결제 취소·환불
-- 고객센터: 공지/문의 게시판(목록·상세·작성·수정·삭제)
-- 관리자:
-  - 대시보드(방문자·매출·객실별 판매/취소)
-  - 예약 관리(오늘 예약/취소 현황)
-  - 고객센터 공지 관리(추가/수정/삭제)
-  - 객실 관리(체크인·아웃 현황/객실별 특이사항)
 
 ---
 
@@ -115,3 +109,7 @@ hotel_service/
 │       │   └── Reserve/     # 예약 페이지
 │       └── styles/          # SCSS 스타일 파일
 └── README.md
+```
+
+**WBS(작업 분장표)** : <https://docs.google.com/spreadsheets/d/1oPSj2ZW7eJnzm3DVjmy8NDUJRv5GWYZKAheRds31aBs/edit?gid=0#gid=0>
+**PPT(요구사항 정의서, ERD 등)** : <https://docs.google.com/presentation/d/17XPA9UH_m_6vYxjWLgTS40vYDhsSSqg5kyBfMppuy9k/edit?slide=id.g328849d1328_0_0#slide=id.g328849d1328_0_0>
