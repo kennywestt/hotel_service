@@ -4,7 +4,7 @@
 이런 아쉬움을 개선하기 위해 예약, 결제, 승인까지 흐름을 단순화하고, 반응형 UI로 리뉴얼 하였습니다.
 총 5명이 프론트엔드로 참여했고 필요한 서버와 데이터 작업은 역할에 맞춰 함께 수행하였습니다.
 
-- 🗓 프로젝트 기간: **2024-11-26 ~ 2024-01-19**
+- 🗓 프로젝트 기간: **2024-11-26 ~ 2024-01-14**
 - 👥 참여 인원: **5명** (프론트엔드 중심, 일부 API·DB 구현 포함)
 - 🎯 목표: 기존 예약 플로우의 복잡도를 낮추고 반응형 UI와 관리자 도구를 갖춘 **실사용 수준 데모** 구축
 
@@ -44,7 +44,7 @@
 - 관리자(회원관리): 회원관리 게시판
 
 
-## 이경근 버전별 변경 내역
+## 이경근 v2,v3의 내역
 
 ### Shilla_v2
 - **예약 기능** 1차 구현
@@ -91,25 +91,25 @@
 ---
 
 ## 🗂 디렉터리 구조
-hotel_service/
-├─ frontend/
-│ ├─ src/
-│ │ ├─ components/ # 공통 헤더/푸터/카드/폼 등
-│ │ ├─ pages/
-│ │ │ ├─ Home/
-│ │ │ ├─ Auth/ # 로그인/회원가입/ID·PW 찾기
-│ │ │ ├─ Reserve/ # 예약 검색/확인
-│ │ │ ├─ Payment/ # 결제/취소
-│ │ │ ├─ MyPage/ # 예약내역/환불
-│ │ │ ├─ Cs/ # 공지/문의
-│ │ │ └─ Admin/ # 대시보드/예약관리/공지관리/객실관리
-│ │ └─ styles/
-│ └─ public/
-└─ backend/
-├─ src/
-│ ├─ routes/ # /auth /reserve /payment /admin ...
-│ ├─ controllers/
-│ ├─ services/
-│ ├─ models/ # MariaDB 연동
-│ └─ config/ # env, db, payment
-└─ prisma/ or sql/ # 스키마/쿼리/ERD 참고 자료
+  hotel_service/
+  ├─ frontend/
+  │ ├─ src/
+  │ │ ├─ components/ # 공통 헤더/푸터/카드/폼 등
+  │ │ ├─ pages/
+  │ │ │ ├─ Home/
+  │ │ │ ├─ Auth/ # 로그인/회원가입/ID·PW 찾기
+  │ │ │ ├─ Reserve/ # 예약 검색/확인
+  │ │ │ ├─ Payment/ # 결제/취소
+  │ │ │ ├─ MyPage/ # 예약내역/환불
+  │ │ │ ├─ Cs/ # 공지/문의
+  │ │ │ └─ Admin/ # 대시보드/예약관리/공지관리/객실관리
+  │ │ └─ styles/
+  │ └─ public/
+  └─ backend/
+  ├─ src/
+  │ ├─ routes/ # /auth /reserve /payment /admin ...
+  │ ├─ controllers/
+  │ ├─ services/
+  │ ├─ models/ # MariaDB 연동
+  │ └─ config/ # env, db, payment
+  └─ prisma/ or sql/ # 스키마/쿼리/ERD 참고 자료
