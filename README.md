@@ -9,11 +9,9 @@
 
 ## 리포지토리 & 호스팅
 
+- 호스팅 사이트: <https://web-react-hotel-m84jldlx56e236e1.sel4.cloudtype.app/>
 - Frontend(React): <https://github.com/kennywestt/react_hotel>  
 - Backend(Node.js): <https://github.com/kennywestt/nodejs_hotel>  
-- 호스팅: **Cloudtype**  
-- 호스팅 사이트: <https://web-react-hotel-m84jldlx56e236e1.sel4.cloudtype.app/>
-
 > 참고: 현재 저장소(hotel_service)는 팀 프로젝트 산출물 정리용이며, 실제 배포는 위 분리 저장소를 사용했습니다.
 
 ---
